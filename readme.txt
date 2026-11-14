@@ -8,8 +8,8 @@ Names and Reg Numbers:
 
 Brief Description:-
 It is a console-based Password Manager. It is a user credential vault made with C++. It lets users store, create, find and keep track of their website passwords. 
-It also lets an administrator watch login activity and delete user accounts. When the program starts it reads stored accounts from a file using (fstream) and loads them into one‑dimensional arrays.
-It also loads security logs into an audit matrix. To check logins the program uses a function that limits attempts. When a user logs in the program creates that user’s vault in memory,
-with pointers. The vault grows automatically when more entries are added. Before any credential is written to disk, a char* pointer‑based cipher hides the password.
-It uses the user’s Master Password as the key. This keeps the files encrypted and even the administrator cannot see the password. The program uses functions, loops, password strength checks and a 
-recursive binary search to manage everyday vault tasks.
+It also lets an administrator watch login activity and delete user accounts. When the program starts it reads stored accounts from a file and loads them into arrays.
+It also loads security logs. To check logins the program uses a function that limits attempts. When a user logs in the program creates that user’s vault in memory,
+with pointers. Before any credential is written to disk, a pointer‑based cipher hides the password.
+It uses the user’s Master Password as the key. This keeps the files encrypted and even the administrator cannot see the password. The program uses functions, loops, password strength checks and a recursive binary search to manage everyday vault tasks. It also has a built in strong password generator which will suggest strong passwords to the 
+user. It also tells the user about the strength of the password.
