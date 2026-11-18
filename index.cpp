@@ -1,8 +1,6 @@
 #include<iostream>
 using namespace std;
 int main(){
-    cout<<"jeooo sangi";
-    cout<<"kuch kuch smajh aa rha hai ☆*: .｡. o(≧▽≦)o .｡.:*☆☆*: .｡. o(≧▽≦)o .｡.:*☆";
-    cout<<"ahmad ahmad";
+    cout<<"zohaib ko smjha rhe hein";
     return 0;
 }
